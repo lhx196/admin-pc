@@ -1,13 +1,19 @@
 import React from 'react';
-import './App.css';
+
 import { HashRouter as Router } from 'react-router-dom';
-import Pages from './pages/';
+import { Provider } from 'mobx-react';
+import Pages from './pages';
+import Store from './store';
+
+import './App.css';
 
 const App: React.FC = () => {
   return (
-    <Router>
-      <Pages />
-    </Router>
+    <Provider store={new Store()}>
+      <Router>
+        <Pages />
+      </Router>
+    </Provider>
   );
 };
 
