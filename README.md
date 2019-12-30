@@ -1,4 +1,4 @@
-# react-admin 
+# react-pc 
 
 以create-react-app --typescript生成模板，进行一系列二次配置集成<br>
 其中包括：react-router-dom动态配置、less-loader加载、react-app-rewired + customize-cra 拓展配置、mobx状态管理配置
