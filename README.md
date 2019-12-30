@@ -15,15 +15,12 @@
   - App.tsx - 项目入口，主要用于状态的注入，和路由定义
 	- react-app-env.d.ts - 全局声明
 
-## 搭建过程
-
 ## 致谢
 
 本人学习过程中脚手架搭建以及二次配置的思路来源，感谢大神参考项目以及指导
 
 - [dyb881/react-app](https://github.com/dyb881/react-app)
 - [dyb881/create-react-app](https://github.com/dyb881/create-react-app)
-
 
 感谢现有的相关项目:
 
